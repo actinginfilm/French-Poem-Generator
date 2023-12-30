@@ -10,13 +10,29 @@
 
 
 <body>
-  <h1>Welcome to my French Poem Generator</h1>
+  <div id="container">
+  <header>
+  <h1>Welcome to my AI French Poem Generator</h1>
+  </header>
+
+  <main>
+    <form>
+      <input type="text" placeholder="Enter the poem's topic" autofocus required id="instructions" autocomplete="off"/>
+      <input type="submit" id="submit-button"/>
+    </form>  
+    <div id="poem">
+        The poem will go here
+    </div>
+    
+  </main>
+
+
 
 
   <footer>This was coded by <a href="https://github.com/actinginfilm">Elizabeth Patton</a> and is open-sourced on <a href="https://github.com/actinginfilm/French-Poem-Generator" target="_blank">GitHub</a> and is hosted on <a href="https://stellar-brigadeiros-37eca1.netlify.app">Netlify.</a>
   
   </footer>
 <script src="src/index.js"></script>
-
+</div>
 </body>
 </html>
